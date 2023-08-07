@@ -1,0 +1,50 @@
+nav{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+p{
+    text-align: left;
+}
+    div{
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 32px;
+        padding: 5px;
+    }
+.wish:hover{
+    transition: ease-in 2s;
+    text-decoration: overline;
+}
+.person{
+    width: 200px;
+    border: 5px solid #555;
+}
+
+.para{
+    color: aquamarine;
+    float: left;
+    min-height: 400px;
+    width: 400px;
+    border: red solid 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#container{
+overflow:hidden;
+width:auto;
+display:flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+h3{
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.para .coke{
+    margin-top: 70px;
+    text-align: left;
+}
